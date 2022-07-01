@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:layoutDirection="rtl"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:elevation="0dp"
+        app:elevation="0dp"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbarmainacivity"
+            android:elevation="0dp"
+            app:contentInsetStart="100dp"
+            app:title=""
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/backgroundaccent"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <include
+        android:id="@+id/llmaincontent"
+        layout="@layout/main_content"/>
+
+<!--    <com.etebarian.meowbottomnavigation.MeowBottomNavigation-->
+<!--        android:id="@+id/bottomnav"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="bottom|center"-->
+<!--        android:layout_marginStart="30dp"-->
+<!--        android:layout_marginEnd="30dp"-->
+<!--        android:layout_marginBottom="30dp"-->
+<!--        app:mbn_backgroundBottomColor="@color/primary"-->
+<!--        app:mbn_circleColor="@color/white"-->
+<!--        app:mbn_selectedIconColor="@color/primary"-->
+<!--        app:mbn_defaultIconColor="@color/white"/>-->
+
+    <com.ismaeldivita.chipnavigation.ChipNavigationBar
+        android:id="@+id/bootomchipnav"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginEnd="15dp"
+        app:cnb_animationDuration="@integer/material_motion_duration_short_1"
+        app:cnb_radius="16dp"
+        android:backgroundTint="@android:color/transparent"
+        android:background="@android:color/transparent"
+        android:layout_gravity="bottom|center"
+        android:elevation="0dp"
+        app:cnb_menuResource="@menu/activity_main_drawer"
+        app:cnb_unselectedColor="@color/primary0"/>
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

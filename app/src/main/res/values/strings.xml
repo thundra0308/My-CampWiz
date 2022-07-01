@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Mr Messenger</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="home">Home</string>
+    <string name="open_drawer">open</string>
+    <string name="close_drawer">close</string>
+    <string name="float_button_for_new_chat">Float Button For New Chat</string>
+    <string name="my_profile">My Profile</string>
+    <string name="settings">Settings</string>
+    <string name="chat">Chat</string>
+    <string name="title_activity_my_profile_fragment">MyProfileFragment</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="inb_ox">Inb_oX</string>
+    <string name="update">Update</string>
+    <string name="welcome">WELCOME!!</string>
+</resources>

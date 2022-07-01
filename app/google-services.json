@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "621157494020",
+    "project_id": "mr-manager-6cf74",
+    "storage_bucket": "mr-manager-6cf74.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:621157494020:android:da17a27749c5d5ba7ab451",
+        "android_client_info": {
+          "package_name": "limbo.mrvoid.mrmessenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "621157494020-7lat2pko797sblsk7p80ufa8415pe27k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "limbo.mrvoid.mrmessenger",
+            "certificate_hash": "66b355d4f5207a88367468880fab8eb4a59c05c0"
+          }
+        },
+        {
+          "client_id": "621157494020-3l93bpsopbt2288jvjk4aam67s08fnrt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAy-tSaRxaABeHfnANO7kU96WOjKae-2hc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "621157494020-3l93bpsopbt2288jvjk4aam67s08fnrt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
